@@ -43,6 +43,7 @@ const addBookHandler = (request, h) => {
   const updatedAt = insertedAt;
 
   const newBook = {
+    id,
     name,
     year,
     author,
@@ -50,9 +51,8 @@ const addBookHandler = (request, h) => {
     publisher,
     pageCount,
     readPage,
-    reading,
-    id,
     finished,
+    reading,
     insertedAt,
     updatedAt,
   };
